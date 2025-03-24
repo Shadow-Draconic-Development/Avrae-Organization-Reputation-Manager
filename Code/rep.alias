@@ -283,7 +283,7 @@ def grab_organization_dictionaries() -> dict:
 
             # If gvar does not exist
             else:
-                pass
+                key_result = None
 
         # If it finds a name
         if key_result:
@@ -389,4 +389,4 @@ left_arrow = "<"
 -f "{{output_list[1]}}"
 -thumb "{{output_list[2]}}"
 -color "{{output_list[3]}}"
--footer "!rep [organization] {{left_arrow}}#> | Updated 11/14/23 | ShadowsStride"
+-footer "!rep [organization] {{left_arrow}}#> | 03/24/25 | ShadowsStride"
